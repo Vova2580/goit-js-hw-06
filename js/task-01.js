@@ -1,0 +1,1 @@
+const allCatetgories = document.querySelector
