@@ -13,15 +13,29 @@ const images = [
   },
 ];
 
+
+
+
+
+const newGalleryEl = (image) => `<li><img src="${image.url}" alt="${image.alt}" width = 200 height = 150></li>`;
+const galleryMark = images.reduce((acc, item) => acc + newGalleryEl(item), "");
+
+
 const galleryList = document.querySelector(".gallery");
+galleryList.insertAdjacentHTML("afterbegin", galleryMark);
+
+console.log(galleryList);
 
 
-const galleryListEl = document.createElement("li");
-const galleryImg = document.createElement('img');
 
 
 
-console.log(galleryList)
+
+
+
+
+
+
 
 
 
