@@ -22,3 +22,19 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+ul,li {
+  display: flex;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  background-color: rebeccapurple;
+}
+img {
+  border: solid 5px teal;
+}
