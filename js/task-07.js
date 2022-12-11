@@ -9,6 +9,3 @@ function inputResizing(event) {
     fieldToChange.style.fontSize = event.currentTarget.value + "px";
     
 }
-
-    // console.log(fieldToChange.style.fontSize);
-    // console.log(event.currentTarget.value + "px");
